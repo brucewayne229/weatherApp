@@ -42,3 +42,63 @@
 #search-input::placeholder {
     color: rgb(206, 206, 206);
 }
+
+.info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    padding: 80px 50px;
+}
+
+.city-name {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.weather-state {
+    font-size: 13px;
+}
+
+.weather-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.temp {
+    font-size: 80px;
+    font-weight: lighter;
+    line-height: 1;
+    position: relative;
+}
+
+.temp::after {
+    content: 'o';
+    position: absolute;
+    font-size: 30px;
+}
+
+.additional-section {
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    font-size: 13px;
+}
+
+
+.additional-section .row {
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.additional-section .item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.additional-section .item .label {
+    font-weight: bold;
+}
